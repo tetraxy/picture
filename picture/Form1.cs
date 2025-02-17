@@ -56,5 +56,33 @@ namespace picture
             }
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.Image != null)
+            {
+                using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+                {
+                    saveFileDialog.Filter = "JPEG Image|*.jpg|PNG Image|*.png|BMP Image|*.bmp";
+                    saveFileDialog.Title = "Сохранить изображение как";
+                    saveFileDialog.FileName = "image"; // Имя файла по умолчанию
+
+                    if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                    {
+                        try
+                        {
+                            // Сохраняем изображение в выбранный путь
+                            pictureBox1.Image.Save(saveFileDialog.FileName);
+                            MessageBox.Show("Изображение успешно сохранено!", "Сообщение", MessageBoxButtons.OK);
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Произошла ошибка: {ex.Message}");
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+            

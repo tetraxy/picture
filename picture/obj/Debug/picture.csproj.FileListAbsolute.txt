@@ -1,0 +1,10 @@
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\obj\Debug\picture.Form1.resources
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\obj\Debug\picture.csproj.GenerateResource.Cache
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\obj\Debug\picture.Properties.Resource.resources
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\bin\Debug\picture.exe.config
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\bin\Debug\picture.exe
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\bin\Debug\picture.pdb
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\obj\Debug\picture.exe
+C:\Users\Ksusha\Documents\Visual Studio 2015\Projects\picture\picture\obj\Debug\picture.pdb
